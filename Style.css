@@ -65,7 +65,7 @@ nav .container { display: flex; justify-content: space-between; align-items: cen
 
 /* About */
 .about-grid { grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); align-items: center; gap: clamp(48px, 8vw, 112px); }
-.about-image { position: relative; }
+.about-image { position: relative; width: 100%; max-width: 420px; }
 .about-image img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
 .about-image::after { content: ''; position: absolute; top: 18px; left: 18px; width: 100%; height: 100%; border: 1px solid var(--terracotta); z-index: -1; }
 .taupe-text { color: var(--terracotta); }

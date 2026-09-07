@@ -45,7 +45,7 @@ nav .container { display: flex; justify-content: space-between; align-items: cen
 .btn-nav:hover { background: var(--terracotta); border-color: var(--terracotta); color: var(--paper) !important; transform: translateY(-2px); }
 
 /* Hero */
-.hero { min-height: 720px; height: 94vh; display: flex; align-items: center; position: relative; overflow: hidden; color: var(--paper); margin-bottom: 0; }
+.hero { min-height: 100vh; height: 100svh; display: flex; align-items: center; position: relative; overflow: hidden; color: var(--paper); margin-bottom: 0; }
 .hero::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(13, 25, 22, 0.74), rgba(13, 25, 22, 0.12)); }
 .hero-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .hero .container { position: relative; z-index: 1; width: 100%; }
@@ -277,7 +277,7 @@ footer { padding: 70px 0 28px; background: var(--nav-background); color: var(--i
     .container { padding: 0 var(--gutter); }
     nav { padding: 15px 0; }
     .logo img { height: 42px; max-width: 180px; }
-    .hero { min-height: 680px; height: 90vh; }
+    .hero { min-height: 100svh; height: 100svh; }
     .hero h1 { font-size: clamp(2.8rem, 14vw, 4.4rem); }
     .hero-btns { flex-direction: column; align-items: flex-start; }
     .hero-btns .btn { text-align: center; width: 190px; }

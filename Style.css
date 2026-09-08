@@ -154,24 +154,20 @@ nav .container { display: flex; justify-content: space-between; align-items: cen
 }
 
 /* Affiliations Marquee */
-.affiliations { overflow: hidden; padding: 68px 0; background: var(--paper); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.affiliations { overflow: hidden; padding: 68px 0; background: #ffffff; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .affiliations-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 28px; margin-bottom: 24px; }
 .affiliations-heading .uppercase { color: var(--terracotta); }
 .affiliations-heading p { font-size: 0.78rem; text-align: right; }
-.marquee-wrapper { position: relative; overflow: hidden; padding: 24px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--canvas); }
+.marquee-wrapper { position: relative; overflow: hidden; padding: 24px 0; border-top: 1px solid transparent; border-bottom: 1px solid transparent; background: #ffffff; }
 .marquee-wrapper::before, .marquee-wrapper::after { content: ''; position: absolute; top: 0; z-index: 2; width: 96px; height: 100%; pointer-events: none; }
-.marquee-wrapper::before { left: 0; background: linear-gradient(to right, var(--canvas), rgba(244, 241, 235, 0)); }
-.marquee-wrapper::after { right: 0; background: linear-gradient(to left, var(--canvas), rgba(244, 241, 235, 0)); }
-.marquee-track { display: flex; width: max-content; gap: clamp(50px, 7vw, 100px); align-items: center; animation: affiliations-scroll 24s linear infinite; }
+.marquee-wrapper::before { left: 0; background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); }
+.marquee-wrapper::after { right: 0; background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); }
+.marquee-track { display: flex; width: max-content; gap: clamp(24px, 4vw, 52px); align-items: center; animation: affiliations-scroll 24s linear infinite; }
 .marquee-wrapper:hover .marquee-track { animation-play-state: paused; }
-.logo-item { display: flex; flex-shrink: 0; align-items: center; justify-content: center; min-width: 120px; transition: transform var(--transition); }
-.logo-item:hover { transform: scale(1.06); }
-.logo-ridge { display: flex; align-items: center; justify-content: center; width: 76px; height: 76px; border: 1px solid var(--ink); border-radius: 50%; color: var(--ink); font-family: 'Playfair Display', serif; font-size: 0.65rem; line-height: 1.25; text-align: center; }
-.logo-eho { display: flex; flex-direction: column; align-items: center; color: var(--ink); font-size: 0.59rem; font-weight: 600; letter-spacing: 0.06em; line-height: 1.35; text-align: center; }
-.eho-mark { color: var(--terracotta); font-size: 1.4rem; line-height: 1; margin-bottom: 3px; }
-.logo-realtor { padding: 10px 15px; border: 1px solid var(--terracotta); color: var(--ink); font-size: 1rem; font-style: italic; font-weight: 700; letter-spacing: 0.02em; }
-.logo-realtor sup { font-size: 0.45em; }
-.logo-chamber { display: flex; align-items: center; justify-content: center; width: 76px; height: 76px; border: 1px solid var(--sage); border-radius: 50%; color: var(--sage); font-size: 0.55rem; font-weight: 700; line-height: 1.3; text-align: center; letter-spacing: 0.05em; }
+.logo-item { display: flex; flex-shrink: 0; align-items: center; justify-content: center; width: clamp(150px, 18vw, 220px); height: 90px; transition: transform var(--transition), opacity var(--transition); background: #ffffff; }
+.logo-item:hover { transform: scale(1.04); }
+.logo-item img { display: block; width: auto; max-width: 100%; height: 100%; object-fit: contain; opacity: 0.9; filter: grayscale(0.08) contrast(1.05); background: transparent; }
+.logo-item:hover img { opacity: 1; }
 @keyframes affiliations-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
 /* Property Gallery */

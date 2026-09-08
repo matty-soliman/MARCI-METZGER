@@ -65,4 +65,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     lastScrollY = currentScrollY;
   }, { passive: true });
+
+  // Handle search form submission smoothly
+  const searchForm = document.querySelector('.editorial-search');
+  if (searchForm) {
+    searchForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      const propertyGrid = document.querySelector('.property-grid');
+      if (propertyGrid) {
+        propertyGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  }
 });

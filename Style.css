@@ -129,7 +129,29 @@ nav .container { display: flex; justify-content: space-between; align-items: cen
 .selling-number { display: block; color: var(--terracotta); font-size: 0.68rem; font-weight: 600; letter-spacing: 0.14em; margin-bottom: 10px; }
 .selling-copy h3 { font-size: clamp(1.7rem, 3vw, 2.35rem); margin-bottom: 12px; }
 .selling-copy p { max-width: 460px; }
-.selling-image { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; filter: saturate(0.8); border-radius: var(--radius); }
+.selling-image-wrap {
+    overflow: hidden;
+    border: 1px solid rgba(23, 33, 31, 0.12);
+    border-radius: var(--radius);
+    transition: border-color 0.35s ease, box-shadow 0.35s ease, transform 0.35s ease;
+}
+.selling-step:hover .selling-image-wrap {
+    border-color: var(--terracotta);
+    box-shadow: 0 16px 30px rgba(23, 33, 31, 0.08);
+}
+.selling-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: center;
+    filter: saturate(0.8);
+    transition: transform 0.65s ease, filter 0.65s ease;
+}
+.selling-step:hover .selling-image {
+    transform: scale(1.08);
+    filter: saturate(1);
+}
 
 /* Affiliations Marquee */
 .affiliations { overflow: hidden; padding: 68px 0; background: var(--paper); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }

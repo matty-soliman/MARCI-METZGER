@@ -70,7 +70,6 @@ nav .container { display: flex; justify-content: space-between; align-items: cen
 .about-image { position: relative; width: 100%; max-width: 420px; }
 .about-image img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
 .about-image::after { content: ''; position: absolute; top: 18px; left: 18px; width: 100%; height: 100%; border: 1px solid var(--terracotta); z-index: -1; }
-.taupe-text { color: var(--terracotta-text); }
 .about-heading { font-size: clamp(3rem, 4.3vw, 5.3rem); margin: 18px 0 24px; line-height: 1.06; }
 .about-text { max-width: 760px; }
 .about-text p { max-width: 720px; font-size: 1rem; line-height: 1.7; margin-bottom: 1.2rem; color: rgba(23, 33, 31, 0.82); }
@@ -349,7 +348,7 @@ body.gallery-modal-open { overflow: hidden; }
 .card:hover .card-img { transform: scale(1.04); }
 .card-body { padding: 24px 24px 26px; }
 .card-body h3 { font-size: 1.45rem; margin: 9px 0 4px; }
-.card-body > p { color: var(--ink); font-weight: 600; font-size: 1.15rem; margin-top: 4px; }
+.card-price { color: var(--ink); font-weight: 600; font-size: 1.15rem; margin-top: 4px; }
 .card-meta { display: flex; justify-content: space-between; border-top: 1px solid var(--line); margin-top: 20px; padding-top: 15px; color: var(--sage); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; }
 .property-location { color: var(--terracotta-text); }
 .properties-cta { text-align: center; margin-top: 48px; }
@@ -388,8 +387,8 @@ body.gallery-modal-open { overflow: hidden; }
 .contact-field input, .contact-field textarea { width: 100%; padding: 12px 0; border: 0; border-bottom: 1px solid var(--input-border); border-radius: 0; outline: none; background: transparent; color: var(--ink); font: inherit; resize: vertical; }
 .contact-field input:focus, .contact-field textarea:focus { border-color: var(--terracotta); }
 .contact-field input::placeholder, .contact-field textarea::placeholder { color: var(--muted); opacity: 0.75; }
-.submit-button { width: 100%; margin-top: 6px; background: var(--ink); color: var(--paper); font-size: 0.76rem; }
-.submit-button:hover { background: var(--terracotta); }
+.btn-submit { width: 100%; margin-top: 6px; background: var(--ink); color: var(--paper); font-size: 0.76rem; }
+.btn-submit:hover { background: var(--terracotta); }
 .form-note { font-size: 0.7rem; line-height: 1.5; }
 .contact-info { display: flex; flex-direction: column; justify-content: space-between; gap: 34px; background: linear-gradient(135deg, rgba(113, 133, 122, 0.12), transparent 60%); }
 .agency-title { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; }

@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marci Metzger | Luxury Real Estate Professional</title>
-    <meta name="description" content="Marci Metzger Homes - The Ridge Realty Group. Premier real estate guidance for buying and selling exceptional homes in Pahrump and Southern Nevada.">
+    <meta name="description"
+        content="Marci Metzger Homes - The Ridge Realty Group. Premier real estate guidance for buying and selling exceptional homes in Pahrump and Southern Nevada.">
     <link rel="icon" type="image/png" href="Asset/logo/logo.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="Style.css">
 </head>
+
 <body>
 
     <!-- Navigation -->
@@ -21,20 +26,26 @@
             <a href="#" class="logo" aria-label="Marci Metzger home">
                 <img src="Asset/logo/logo.png" alt="Marci Metzger Homes">
             </a>
-            <div class="nav-links">
+            <div class="nav-links" id="primary-nav-links">
                 <a href="#">Home</a>
                 <a href="#">Listings</a>
-                <a href="#">Lets Move</a>
+                <a href="#s">Let's Move</a>
                 <a href="#">About Us</a>
                 <a href="#" class="btn-nav">Get in Touch</a>
             </div>
-            <div class="mobile-toggle">☰</div>
+            <button class="mobile-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false"
+                aria-controls="primary-nav-links">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <img class="hero-image" src="Asset/hero/mtn-falls-pond.webp" alt="Luxury modern home surrounded by trees" title="Luxury modern home">
+        <img class="hero-image" src="Asset/hero/mtn-falls-pond.webp" alt="Luxury modern home surrounded by trees"
+            title="Luxury modern home">
         <div class="container">
             <div class="hero-content">
                 <span class="uppercase">MARCI METZGER - THE RIDGE REALTY GROUP</span>
@@ -53,27 +64,47 @@
         <div class="container">
             <div class="grid about-grid">
                 <div class="about-image">
-                    <img src="Asset/Marci/photo-5db79f9.webp" alt="Professional portrait of Marci Metzger" title="Marci Metzger, luxury real estate professional">
+                    <img src="Asset/Marci/photo-5db79f9.webp" alt="Professional portrait of Marci Metzger"
+                        title="Marci Metzger, luxury real estate professional">
                 </div>
                 <div class="about-text">
                     <span class="uppercase taupe-text">The Professional</span>
                     <h2 class="about-heading">Marci Metzger</h2>
-                    <p>With experience, local knowledge, and a genuine commitment to her clients, Marci Metzger provides a personalized approach to buying and selling real estate in Pahrump and the surrounding communities.</p>
-                    <p>Whether you're buying your first home, selling a property, or looking for your next investment property in Pahrump, Marci's commitment to her clients is unwavering.</p>
+                    <p>With experience, local knowledge, and a genuine commitment to her clients, Marci Metzger provides
+                        a personalized approach to buying and selling real estate in Pahrump and the surrounding
+                        communities.</p>
+                    <p>Whether you're buying your first home, selling a property, or looking for your next investment
+                        property in Pahrump, Marci's commitment to her clients is unwavering.</p>
                     <a href="#contact" class="contact-link">Contact Marci <span aria-hidden="true">→</span></a>
 
                     <div class="social-links" aria-label="Social media links">
-                        <a href="https://www.facebook.com/MarciHomes" class="social-link facebook" aria-label="Facebook" target="_blank" rel="noreferrer">
-                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.356c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 22.954 24 17.99 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                        <a href="https://www.facebook.com/MarciHomes" class="social-link facebook" aria-label="Facebook"
+                            target="_blank" rel="noreferrer">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M12 0C5.373 0 0 5.373 0 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.356c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 22.954 24 17.99 24 12c0-6.627-5.373-12-12-12z" />
+                            </svg>
                         </a>
-                        <a href="https://www.instagram.com/marcimetzger_theridge/" class="social-link instagram" aria-label="Instagram" target="_blank" rel="noreferrer">
-                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        <a href="https://www.instagram.com/marcimetzger_theridge/" class="social-link instagram"
+                            aria-label="Instagram" target="_blank" rel="noreferrer">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                            </svg>
                         </a>
-                        <a href="https://www.linkedin.com/in/marci-metzger-30642496/" class="social-link linkedin" aria-label="LinkedIn" target="_blank" rel="noreferrer">
-                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        <a href="https://www.linkedin.com/in/marci-metzger-30642496/" class="social-link linkedin"
+                            aria-label="LinkedIn" target="_blank" rel="noreferrer">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                            </svg>
                         </a>
-                        <a href="https://www.yelp.com/biz/xr3yQN_m2SgO0R_7S6p62w" class="social-link yelp" aria-label="Yelp" target="_blank" rel="noreferrer">
-                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.988 14.158c-.037.01-3.983 1.134-4.224 1.134-.554-.029-.674-.515-.726-.99a6.35 6.35 0 0 1 .011-1.487c.07-.596.201-1.431.883-1.396.175 0 2.447.822 4.11 1.41.624.215.679 1.136-.054 1.33zm2.112-3.616c.065 1.213-.93 1.54-1.722.454L6.501 5.663c-.055-.21.011-.394.193-.553.57-.523 3.626-1.263 4.432-1.082.273.06.441.194.503.4.048.263.42 5.314.47 6.114zm-.051 5.232c0 .146.007 3.696-.062 3.857-.084.19-.256.308-.522.356-.368.054-.988-.06-1.86-.34-.803-.257-2.068-.682-1.798-1.349.102-.219 1.874-1.994 2.82-2.971.437-.483 1.45-.175 1.422.447zm6.572-3.74c-.204.118-4.041.896-4.307.972l.01-.02c-.66.15-1.29-.586-.85-1.098.136-.117 2.404-2.933 2.656-3.08.19-.113.412-.12.667-.018.671.28 2.01 2.003 2.094 2.686-.004.092.044.371-.27.558zm.368 4.15c-.098.654-1.623 2.33-2.327 2.571-.251.083-.47.064-.645-.063-.183-.111-2.254-3.083-2.367-3.248-.398-.514.248-1.263.933-1.054 0 0 4.03 1.133 4.184 1.25.19.131.262.312.222.544z"/></svg>
+                        <a href="https://www.yelp.com/biz/xr3yQN_m2SgO0R_7S6p62w" class="social-link yelp"
+                            aria-label="Yelp" target="_blank" rel="noreferrer">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M9.988 14.158c-.037.01-3.983 1.134-4.224 1.134-.554-.029-.674-.515-.726-.99a6.35 6.35 0 0 1 .011-1.487c.07-.596.201-1.431.883-1.396.175 0 2.447.822 4.11 1.41.624.215.679 1.136-.054 1.33zm2.112-3.616c.065 1.213-.93 1.54-1.722.454L6.501 5.663c-.055-.21.011-.394.193-.553.57-.523 3.626-1.263 4.432-1.082.273.06.441.194.503.4.048.263.42 5.314.47 6.114zm-.051 5.232c0 .146.007 3.696-.062 3.857-.084.19-.256.308-.522.356-.368.054-.988-.06-1.86-.34-.803-.257-2.068-.682-1.798-1.349.102-.219 1.874-1.994 2.82-2.971.437-.483 1.45-.175 1.422.447zm6.572-3.74c-.204.118-4.041.896-4.307.972l.01-.02c-.66.15-1.29-.586-.85-1.098.136-.117 2.404-2.933 2.656-3.08.19-.113.412-.12.667-.018.671.28 2.01 2.003 2.094 2.686-.004.092.044.371-.27.558zm.368 4.15c-.098.654-1.623 2.33-2.327 2.571-.251.083-.47.064-.645-.063-.183-.111-2.254-3.083-2.367-3.248-.398-.514.248-1.263.933-1.054 0 0 4.03 1.133 4.184 1.25.19.131.262.312.222.544z" />
+                            </svg>
                         </a>
                     </div>
                 </div>
@@ -99,20 +130,48 @@
                         <label for="location">Location</label>
                         <select id="location" name="location">
                             <option value="">Any</option>
-                            <option>Alamo</option><option>Alton</option><option>Amargosa Valley</option>
-                            <option>Beatty</option><option>Beryl</option><option>Blue Diamond</option>
-                            <option>Boulder City</option><option>Brian Head</option><option>Cal Nev Ari</option>
-                            <option>Caliente</option><option>Cold Creek</option><option>Crystal</option>
-                            <option>Duck Creek Village</option><option>Dyer</option><option>Elko</option>
-                            <option>Ely</option><option>Goldfield</option><option>Goodsprings</option>
-                            <option>Hatch</option><option>Henderson</option><option>Indian Springs</option>
-                            <option>Jean</option><option>Las Vegas</option><option>Laughlin</option>
-                            <option>Logandale</option><option>Manhattan</option><option>Mc Gill</option>
-                            <option>Mesquite</option><option>Moapa</option><option>Mount Charleston</option>
-                            <option>Mountain Springs</option><option>North Las Vegas</option><option>Other</option>
-                            <option>Overton</option><option>Pahrump</option><option>Palm Gardens</option>
-                            <option>Panaca</option><option>Parowan</option><option>Pioche</option>
-                            <option>Round Mountain</option><option>Sandy Valley</option><option>Searchlight</option>
+                            <option>Alamo</option>
+                            <option>Alton</option>
+                            <option>Amargosa Valley</option>
+                            <option>Beatty</option>
+                            <option>Beryl</option>
+                            <option>Blue Diamond</option>
+                            <option>Boulder City</option>
+                            <option>Brian Head</option>
+                            <option>Cal Nev Ari</option>
+                            <option>Caliente</option>
+                            <option>Cold Creek</option>
+                            <option>Crystal</option>
+                            <option>Duck Creek Village</option>
+                            <option>Dyer</option>
+                            <option>Elko</option>
+                            <option>Ely</option>
+                            <option>Goldfield</option>
+                            <option>Goodsprings</option>
+                            <option>Hatch</option>
+                            <option>Henderson</option>
+                            <option>Indian Springs</option>
+                            <option>Jean</option>
+                            <option>Las Vegas</option>
+                            <option>Laughlin</option>
+                            <option>Logandale</option>
+                            <option>Manhattan</option>
+                            <option>Mc Gill</option>
+                            <option>Mesquite</option>
+                            <option>Moapa</option>
+                            <option>Mount Charleston</option>
+                            <option>Mountain Springs</option>
+                            <option>North Las Vegas</option>
+                            <option>Other</option>
+                            <option>Overton</option>
+                            <option>Pahrump</option>
+                            <option>Palm Gardens</option>
+                            <option>Panaca</option>
+                            <option>Parowan</option>
+                            <option>Pioche</option>
+                            <option>Round Mountain</option>
+                            <option>Sandy Valley</option>
+                            <option>Searchlight</option>
                             <option>Tonopah</option>
                         </select>
                     </div>
@@ -121,18 +180,24 @@
                         <label for="type">Type</label>
                         <select id="type" name="type">
                             <option value="">Any</option>
-                            <option>Land</option><option>Residential Lease</option>
-                            <option>High Rise</option><option>Residential</option>
+                            <option>Land</option>
+                            <option>Residential Lease</option>
+                            <option>High Rise</option>
+                            <option>Residential</option>
                         </select>
                     </div>
 
                     <div class="ed-field">
                         <label for="sort">Sort By</label>
                         <select id="sort" name="sort">
-                            <option>Newest</option><option>Oldest</option>
-                            <option>Least Expensive to Most</option><option>Most Expensive to Least</option>
-                            <option>Bedrooms (Low to High)</option><option>Bedrooms (High to Low)</option>
-                            <option>Bathrooms (Low to High)</option><option>Bathrooms (High to Low)</option>
+                            <option>Newest</option>
+                            <option>Oldest</option>
+                            <option>Least Expensive to Most</option>
+                            <option>Most Expensive to Least</option>
+                            <option>Bedrooms (Low to High)</option>
+                            <option>Bedrooms (High to Low)</option>
+                            <option>Bathrooms (Low to High)</option>
+                            <option>Bathrooms (High to Low)</option>
                         </select>
                     </div>
 
@@ -140,8 +205,13 @@
                         <label for="bedrooms">Bedrooms</label>
                         <select id="bedrooms" name="bedrooms">
                             <option value="">Any Number</option>
-                            <option>Studio</option><option>1+</option><option>2+</option>
-                            <option>3+</option><option>4+</option><option>5+</option><option>6+</option>
+                            <option>Studio</option>
+                            <option>1+</option>
+                            <option>2+</option>
+                            <option>3+</option>
+                            <option>4+</option>
+                            <option>5+</option>
+                            <option>6+</option>
                         </select>
                     </div>
 
@@ -149,8 +219,12 @@
                         <label for="baths">Baths</label>
                         <select id="baths" name="baths">
                             <option value="">Any Number</option>
-                            <option>1+</option><option>2+</option><option>3+</option>
-                            <option>4+</option><option>5+</option><option>6+</option>
+                            <option>1+</option>
+                            <option>2+</option>
+                            <option>3+</option>
+                            <option>4+</option>
+                            <option>5+</option>
+                            <option>6+</option>
                         </select>
                     </div>
 
@@ -178,26 +252,36 @@
             <div class="services-heading">
                 <span class="uppercase">Expertise</span>
                 <h2>Our <em>Bespoke</em> Services</h2>
-                <p>Thoughtful guidance for every kind of property journey, from the first question to the final signature.</p>
+                <p>Thoughtful guidance for every kind of property journey, from the first question to the final
+                    signature.</p>
             </div>
             <div class="services-grid">
                 <article class="service-item">
                     <div class="service-number">01 <span>Buying &amp; Selling</span></div>
-                    <div class="service-image"><img src="Asset/Our Service/1.webp" alt="Modern residential interior"></div>
+                    <div class="service-image"><img src="Asset/Our Service/1.webp" alt="Modern residential interior">
+                    </div>
                     <h3>Real Estate Done Right</h3>
-                    <p>Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or sell your residence, looking at investment properties, or just curious about the markets, our team ensures you get the best experience possible!</p>
+                    <p>Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or sell your
+                        residence, looking at investment properties, or just curious about the markets, our team ensures
+                        you get the best experience possible!</p>
                 </article>
                 <article class="service-item">
                     <div class="service-number">02 <span>Property Types</span></div>
-                    <div class="service-image"><img src="Asset/Our Service/2.webp" alt="Distinctive modern residential property exterior"></div>
+                    <div class="service-image"><img src="Asset/Our Service/2.webp"
+                            alt="Distinctive modern residential property exterior"></div>
                     <h3>Commercial &amp; Residential</h3>
-                    <p>Large or small, condo or mansion, we can find it and get it at the price that's right. Fixer-uppers? Luxury? We can help with all of it! We live, work, and play in this community. Happy to help you find where to put your hard-earned dollars.</p>
+                    <p>Large or small, condo or mansion, we can find it and get it at the price that's right.
+                        Fixer-uppers? Luxury? We can help with all of it! We live, work, and play in this community.
+                        Happy to help you find where to put your hard-earned dollars.</p>
                 </article>
                 <article class="service-item">
                     <div class="service-number">03 <span>Advisory</span></div>
-                    <div class="service-image"><img src="Asset/Our Service/3.webp" alt="Bright open-plan living room"></div>
+                    <div class="service-image"><img src="Asset/Our Service/3.webp" alt="Bright open-plan living room">
+                    </div>
                     <h3>Rely on Expertise</h3>
-                    <p>If you have questions about affordability, credit, and loan options, trust us to connect you with the right people to get the answers you need in a timely fashion. We make sure you feel confident and educated every step of the way.</p>
+                    <p>If you have questions about affordability, credit, and loan options, trust us to connect you with
+                        the right people to get the answers you need in a timely fashion. We make sure you feel
+                        confident and educated every step of the way.</p>
                 </article>
             </div>
         </div>
@@ -209,7 +293,8 @@
             <div class="selling-guide-heading">
                 <span class="uppercase">The Advantage</span>
                 <h2>Get It Sold</h2>
-                <p>A considered strategy, thoughtful presentation, and steady guidance from first conversation to closing day.</p>
+                <p>A considered strategy, thoughtful presentation, and steady guidance from first conversation to
+                    closing day.</p>
             </div>
 
             <div class="selling-timeline">
@@ -218,10 +303,13 @@
                     <div class="selling-copy">
                         <span class="selling-number">01</span>
                         <h3>Top Residential Sales</h3>
-                        <p>We helped nearly 90 clients in 2021, and closed 28.5 million in sales! Our team works hard every day to grow and learn, so that we may continue to excel in our market. Our clients deserve our best, & we want to make sure our best is better every year.</p>
+                        <p>We helped nearly 90 clients in 2021, and closed 28.5 million in sales! Our team works hard
+                            every day to grow and learn, so that we may continue to excel in our market. Our clients
+                            deserve our best, & we want to make sure our best is better every year.</p>
                     </div>
                     <div class="selling-image-wrap">
-                        <img class="selling-image" src="Asset/Guide Section/1.webp" alt="Bright modern residential interior">
+                        <img class="selling-image" src="Asset/Guide Section/1.webp"
+                            alt="Bright modern residential interior">
                     </div>
                 </article>
 
@@ -230,10 +318,12 @@
                     <div class="selling-copy">
                         <span class="selling-number">02</span>
                         <h3>Don't Just List It...</h3>
-                        <p>Get it SOLD! We exhaust every avenue to ensure our listings are at the fingertips of every possible buyer, getting you top dollar for your home.</p>
+                        <p>Get it SOLD! We exhaust every avenue to ensure our listings are at the fingertips of every
+                            possible buyer, getting you top dollar for your home.</p>
                     </div>
                     <div class="selling-image-wrap">
-                        <img class="selling-image" src="Asset/Guide Section/2.webp" alt="Modern home exterior with warm wood details">
+                        <img class="selling-image" src="Asset/Guide Section/2.webp"
+                            alt="Modern home exterior with warm wood details">
                     </div>
                 </article>
 
@@ -242,7 +332,8 @@
                     <div class="selling-copy">
                         <span class="selling-number">03</span>
                         <h3>Guide to Buyers</h3>
-                        <p>Nobody knows the market like we do. Enjoy having a pro at your service. Market analysis, upgrades lists, contractors on speed dial, & more!</p>
+                        <p>Nobody knows the market like we do. Enjoy having a pro at your service. Market analysis,
+                            upgrades lists, contractors on speed dial, & more!</p>
                     </div>
                     <div class="selling-image-wrap">
                         <img class="selling-image" src="Asset/Guide Section/3.webp" alt="Refined open-plan living room">
@@ -262,19 +353,25 @@
             </div>
 
             <div class="gallery-accordion">
-                <button class="gallery-card is-active" type="button" aria-expanded="true" aria-label="Show modern dining interior">
-                    <img src="Asset/Photo Gallery/1.webp" alt="Modern dining interior with glass walls and a sculptural staircase">
+                <button class="gallery-card is-active" type="button" aria-expanded="true"
+                    aria-label="Show modern dining interior">
+                    <img src="Asset/Photo Gallery/1.webp"
+                        alt="Modern dining interior with glass walls and a sculptural staircase">
                 </button>
                 <button class="gallery-card" type="button" aria-expanded="false" aria-label="Show modern home exterior">
-                    <img src="Asset/Photo Gallery/2.webp" alt="Modern home exterior with wood cladding and glass railings">
+                    <img src="Asset/Photo Gallery/2.webp"
+                        alt="Modern home exterior with wood cladding and glass railings">
                 </button>
-                <button class="gallery-card" type="button" aria-expanded="false" aria-label="Show open plan living room">
+                <button class="gallery-card" type="button" aria-expanded="false"
+                    aria-label="Show open plan living room">
                     <img src="Asset/Photo Gallery/3.webp" alt="Bright open plan living room with warm wood accents">
                 </button>
-                <button class="gallery-card" type="button" aria-expanded="false" aria-label="Show a refined property detail">
+                <button class="gallery-card" type="button" aria-expanded="false"
+                    aria-label="Show a refined property detail">
                     <img src="Asset/Photo Gallery/4.webp" alt="Refined residential property detail">
                 </button>
-                <button class="gallery-card" type="button" aria-expanded="false" aria-label="Show a luxury home surrounded by trees">
+                <button class="gallery-card" type="button" aria-expanded="false"
+                    aria-label="Show a luxury home surrounded by trees">
                     <img src="Asset/Photo Gallery/5.webp" alt="Luxury home surrounded by trees">
                 </button>
                 <button class="gallery-card" type="button" aria-expanded="false" aria-label="Show Marci Metzger">
@@ -298,10 +395,14 @@
                     <div class="logo-item"><img src="Asset/Affiliations/3.webp" alt="Affiliation logo 3"></div>
                     <div class="logo-item"><img src="Asset/Affiliations/4.webp" alt="Affiliation logo 4"></div>
 
-                    <div class="logo-item" aria-hidden="true"><img src="Asset/Affiliations/1.webp" alt="Affiliation logo 1 duplicate"></div>
-                    <div class="logo-item" aria-hidden="true"><img src="Asset/Affiliations/2.webp" alt="Affiliation logo 2 duplicate"></div>
-                    <div class="logo-item" aria-hidden="true"><img src="Asset/Affiliations/3.webp" alt="Affiliation logo 3 duplicate"></div>
-                    <div class="logo-item" aria-hidden="true"><img src="Asset/Affiliations/4.webp" alt="Affiliation logo 4 duplicate"></div>
+                    <div class="logo-item" aria-hidden="true"><img src="Asset/Affiliations/1.webp"
+                            alt="Affiliation logo 1 duplicate"></div>
+                    <div class="logo-item" aria-hidden="true"><img src="Asset/Affiliations/2.webp"
+                            alt="Affiliation logo 2 duplicate"></div>
+                    <div class="logo-item" aria-hidden="true"><img src="Asset/Affiliations/3.webp"
+                            alt="Affiliation logo 3 duplicate"></div>
+                    <div class="logo-item" aria-hidden="true"><img src="Asset/Affiliations/4.webp"
+                            alt="Affiliation logo 4 duplicate"></div>
                 </div>
             </div>
         </div>
@@ -321,14 +422,17 @@
                         </div>
                         <div class="contact-field">
                             <label for="contact-email">Email</label>
-                            <input type="email" id="contact-email" name="email" placeholder="yourname@example.com" required>
+                            <input type="email" id="contact-email" name="email" placeholder="yourname@example.com"
+                                required>
                         </div>
                         <div class="contact-field">
                             <label for="contact-message">Message</label>
-                            <textarea id="contact-message" name="message" rows="4" placeholder="How can Marci assist you?"></textarea>
+                            <textarea id="contact-message" name="message" rows="4"
+                                placeholder="How can Marci assist you?"></textarea>
                         </div>
                         <button class="btn submit-button" type="submit">Send Message</button>
-                        <p class="form-note">Your information stays private and will only be used to respond to your request.</p>
+                        <p class="form-note">Your information stays private and will only be used to respond to your
+                            request.</p>
                     </form>
                 </div>
 
@@ -339,7 +443,10 @@
                         <p class="address-text">3190 HW-160, Suite F<br>Pahrump, Nevada 89048, United States</p>
                         <a href="tel:2069196886" class="phone-text">(206)&nbsp;919&#8209;6886</a>
                     </div>
-                    <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.508544838634!2d-115.98188152358824!3d36.17852610251147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c634c44f51e0db%3A0xa22b826efd7990c6!2s3190%20NV-160%20f%2C%20Pahrump%2C%20NV%2089048%2C%20USA!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map showing The Ridge Realty Group office"></iframe>
+                    <iframe class="map-frame"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.508544838634!2d-115.98188152358824!3d36.17852610251147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c634c44f51e0db%3A0xa22b826efd7990c6!2s3190%20NV-160%20f%2C%20Pahrump%2C%20NV%2089048%2C%20USA!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        title="Map showing The Ridge Realty Group office"></iframe>
                     <div class="hours-block">
                         <p class="hours-title">Open Daily: 8:00 AM - 7:00 PM</p>
                         <p class="hours-desc">Appointments outside office hours available upon request.</p>
@@ -356,24 +463,40 @@
                 <div>
                     <a href="#" class="logo footer-logo">MARCI METZGER</a>
                     <nav class="social-links footer-social-links" aria-label="Footer social media links">
-                        <a href="https://www.facebook.com/MarciHomes" class="social-link facebook" aria-label="Facebook" target="_blank" rel="noreferrer">
-                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.356c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 22.954 24 17.99 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                        <a href="https://www.facebook.com/MarciHomes" class="social-link facebook" aria-label="Facebook"
+                            target="_blank" rel="noreferrer">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M12 0C5.373 0 0 5.373 0 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.356c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 22.954 24 17.99 24 12c0-6.627-5.373-12-12-12z" />
+                            </svg>
                         </a>
-                        <a href="https://www.instagram.com/marcimetzger_theridge/" class="social-link instagram" aria-label="Instagram" target="_blank" rel="noreferrer">
-                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.28-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618-6.98-6.98-.059-1.28-.073-1.689-.073-4.948 0-3.259.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        <a href="https://www.instagram.com/marcimetzger_theridge/" class="social-link instagram"
+                            aria-label="Instagram" target="_blank" rel="noreferrer">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.28-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618-6.98-6.98-.059-1.28-.073-1.689-.073-4.948 0-3.259.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                            </svg>
                         </a>
-                        <a href="https://www.linkedin.com/in/marci-metzger-30642496/" class="social-link linkedin" aria-label="LinkedIn" target="_blank" rel="noreferrer">
-                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.762 2.239 5 5 5h14c2.762 0 5-2.238 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        <a href="https://www.linkedin.com/in/marci-metzger-30642496/" class="social-link linkedin"
+                            aria-label="LinkedIn" target="_blank" rel="noreferrer">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.762 2.239 5 5 5h14c2.762 0 5-2.238 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                            </svg>
                         </a>
-                        <a href="https://www.yelp.com/biz/xr3yQN_m2SgO0R_7S6p62w" class="social-link yelp" aria-label="Yelp" target="_blank" rel="noreferrer">
-                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.988 14.158c-.037.01-3.983 1.134-4.224 1.134-.554-.029-.674-.515-.726-.99a6.35 6.35 0 0 1 .011-1.487c.07-.596.201-1.431.883-1.396.175 0 2.447.822 4.11 1.41.624.215.679 1.136-.054 1.33zm2.112-3.616c.065 1.213-.93 1.54-1.722.454L6.501 5.663c-.055-.21.011-.394.193-.553.57-.523 3.626-1.263 4.432-1.082.273.06.441.194.503.4.048.263.42 5.314.47 6.114zm-.051 5.232c0 .146.007 3.696-.062 3.857-.084.19-.256.308-.522.356-.368.054-.988-.06-1.86-.34-.803-.257-2.068-.682-1.798-1.349.102-.219 1.874-1.994 2.82-2.971.437-.483 1.45-.175 1.422.447zm6.572-3.74c-.204.118-4.041.896-4.307.972l.01-.02c-.66.15-1.29-.586-.85-1.098.136-.117 2.404-2.933 2.656-3.08.19-.113.412-.12.667-.018.671.28 2.01 2.003 2.094 2.686-.004.092.044.371-.27.558zm.368 4.15c-.098.654-1.623 2.33-2.327 2.571-.251.083-.47.064-.645-.063-.183-.111-2.254-3.083-2.367-3.248-.398-.514.248-1.263.933-1.054 0 0 4.03 1.133 4.184 1.25.19.131.262.312.222.544z"/></svg>
+                        <a href="https://www.yelp.com/biz/xr3yQN_m2SgO0R_7S6p62w" class="social-link yelp"
+                            aria-label="Yelp" target="_blank" rel="noreferrer">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M9.988 14.158c-.037.01-3.983 1.134-4.224 1.134-.554-.029-.674-.515-.726-.99a6.35 6.35 0 0 1 .011-1.487c.07-.596.201-1.431.883-1.396.175 0 2.447.822 4.11 1.41.624.215.679 1.136-.054 1.33zm2.112-3.616c.065 1.213-.93 1.54-1.722.454L6.501 5.663c-.055-.21.011-.394.193-.553.57-.523 3.626-1.263 4.432-1.082.273.06.441.194.503.4.048.263.42 5.314.47 6.114zm-.051 5.232c0 .146.007 3.696-.062 3.857-.084.19-.256.308-.522.356-.368.054-.988-.06-1.86-.34-.803-.257-2.068-.682-1.798-1.349.102-.219 1.874-1.994 2.82-2.971.437-.483 1.45-.175 1.422.447zm6.572-3.74c-.204.118-4.041.896-4.307.972l.01-.02c-.66.15-1.29-.586-.85-1.098.136-.117 2.404-2.933 2.656-3.08.19-.113.412-.12.667-.018.671.28 2.01 2.003 2.094 2.686-.004.092.044.371-.27.558zm.368 4.15c-.098.654-1.623 2.33-2.327 2.571-.251.083-.47.064-.645-.063-.183-.111-2.254-3.083-2.367-3.248-.398-.514.248-1.263.933-1.054 0 0 4.03 1.133 4.184 1.25.19.131.262.312.222.544z" />
+                            </svg>
                         </a>
                     </nav>
                 </div>
                 <div class="footer-links">
                     <a href="#home">Home</a>
                     <a href="#properties">Listings</a>
-                    <a href="#contact">Lets Move</a>
+                    <a href="#selling-guide">Let's Move</a>
                     <a href="#about">About Us</a>
                     <a href="#contact">Get in Touch</a>
                 </div>
@@ -387,4 +510,5 @@
     <script src="navigation.js"></script>
     <script src="gallery.js"></script>
 </body>
+
 </html>

@@ -180,6 +180,9 @@
               <label for="location">Location</label>
               <select id="location" name="location">
                 <option value="">Any</option>
+                <option value="pahrump">Pahrump</option>
+                <option value="mountain-falls">Mountain Falls</option>
+                <option value="artesia">Artesia</option>
                 <option>Alamo</option>
                 <option>Alton</option>
                 <option>Amargosa Valley</option>
@@ -306,8 +309,15 @@
           </div>
         </form>
 
-        <div class="property-grid">
-          <article class="card">
+        <div class="property-grid" id="portfolio-grid">
+          <article
+            class="card"
+            data-location="pahrump mountain-falls"
+            data-price="685000"
+            data-beds="4"
+            data-baths="3"
+            data-type="residential"
+          >
             <img
               class="card-img"
               src="Asset/Photo Gallery/7.webp"
@@ -328,7 +338,14 @@
             </div>
           </article>
 
-          <article class="card">
+          <article
+            class="card"
+            data-location="southern-nevada pahrump"
+            data-price="1250000"
+            data-beds="5"
+            data-baths="5"
+            data-type="residential"
+          >
             <img
               class="card-img"
               src="Asset/Photo Gallery/4.webp"
@@ -347,7 +364,14 @@
             </div>
           </article>
 
-          <article class="card">
+          <article
+            class="card"
+            data-location="pahrump"
+            data-price="540000"
+            data-beds="3"
+            data-baths="3"
+            data-type="residential"
+          >
             <img
               class="card-img"
               src="Asset/Photo Gallery/3.webp"
@@ -365,6 +389,107 @@
               </div>
             </div>
           </article>
+
+          <article
+            class="card"
+            data-location="pahrump"
+            data-price="895000"
+            data-beds="4"
+            data-baths="3.5"
+            data-type="residential"
+          >
+            <img
+              class="card-img"
+              src="Asset/Guide Section/2.webp"
+              alt="Spanish Palms luxury villa with illuminated swimming pool in Pahrump, Nevada"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <span class="uppercase property-location">Pahrump, NV</span>
+              <h3>Spanish Palms Villa</h3>
+              <p class="card-price">$895,000</p>
+              <div class="card-meta">
+                <span>4 BEDS</span>
+                <span>3.5 BATHS</span>
+                <span>3,680 SQ FT</span>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="card"
+            data-location="artesia pahrump"
+            data-price="475000"
+            data-beds="3"
+            data-baths="2.5"
+            data-type="residential"
+          >
+            <img
+              class="card-img"
+              src="Asset/Our Service/2.webp"
+              alt="Artesia Ranch contemporary residence with lawn and pool in Pahrump, Nevada"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <span class="uppercase property-location">Artesia, Pahrump</span>
+              <h3>Artesia Ranch Contemporary</h3>
+              <p class="card-price">$475,000</p>
+              <div class="card-meta">
+                <span>3 BEDS</span>
+                <span>2.5 BATHS</span>
+                <span>2,240 SQ FT</span>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="card"
+            data-location="mountain-falls pahrump"
+            data-price="1450000"
+            data-beds="5"
+            data-baths="4.5"
+            data-type="residential"
+          >
+            <img
+              class="card-img"
+              src="Asset/Photo Gallery/1.webp"
+              alt="The Fairways waterfront golf estate overlooking Mountain Falls lake in Pahrump, Nevada"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <span class="uppercase property-location"
+                >Mountain Falls, Pahrump</span
+              >
+              <h3>Fairways Waterfront Estate</h3>
+              <p class="card-price">$1,450,000</p>
+              <div class="card-meta">
+                <span>5 BEDS</span>
+                <span>4.5 BATHS</span>
+                <span>5,120 SQ FT</span>
+              </div>
+            </div>
+          </article>
+
+          <div
+            class="search-empty-state"
+            id="search-empty-state"
+            style="display: none"
+          >
+            <h3>No Properties Match Your Search</h3>
+            <p>
+              We couldn't find listings matching your exact criteria. Marci
+              frequently represents exclusive off-market properties across
+              Pahrump and Southern Nevada.
+            </p>
+            <div class="empty-state-actions">
+              <button type="button" class="btn btn-dark" id="reset-search-btn">
+                Reset All Filters
+              </button>
+              <a href="#contact" class="btn btn-outline-dark"
+                >Inquire for Pocket Listings</a
+              >
+            </div>
+          </div>
         </div>
 
         <div class="properties-cta">
